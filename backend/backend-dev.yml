@@ -1,0 +1,12 @@
+server:
+  port: 9080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://39.107.224.153:3306/kangkang?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&useSSL=false&zeroDateTimeBehavior=convertToNull
+      username: root
+      password: wodeai1993
