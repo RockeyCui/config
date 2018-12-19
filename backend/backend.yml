@@ -9,4 +9,4 @@ spring:
     druid:
       url: jdbc:mysql://39.107.224.153:3306/kangkang?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&useSSL=false&zeroDateTimeBehavior=convertToNull
       username: root
-      password: wodeai1993
+      password: "{cipher}fc1c19e8cab99dab9c2dcc6c705ff8529c215c4c6b9a995532f63185b66841b6"
