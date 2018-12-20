@@ -1,5 +1,5 @@
 server:
-  port: 9080
+  port: 9081
 eureka:
   instance:
     preferIpAddress: true
@@ -14,3 +14,16 @@ spring:
       url: jdbc:mysql://39.107.224.153:3306/kangkang?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&useSSL=false&zeroDateTimeBehavior=convertToNull
       username: root
       password: "{cipher}fc1c19e8cab99dab9c2dcc6c705ff8529c215c4c6b9a995532f63185b66841b6"
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      initial-size: 5
+      min-idle: 1
+      max-active: 20
+      max-wait: 60000
+      max-open-prepared-statements: -1
+      validation-query-timeout: 60000
+      time-between-eviction-runs-millis: 36000
+      test-while-idle: true
+      validation-query: SELECT NOW()
+      test-on-borrow: false
+      pool-prepared-statements: false
+      test-on-return: false
